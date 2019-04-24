@@ -5,3 +5,5 @@
 Homestead.yaml
 Homestead.json
 .env
+.npmrc
+.DS_Store

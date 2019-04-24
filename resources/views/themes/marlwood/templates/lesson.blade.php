@@ -21,4 +21,12 @@
 </section>
 <!-- /.second -->
 
+<section id="third">
+    <div class="container my-5">
+        <div class="row">
+            {!! PageBuilder::block('lesson_materials', ['view' => 'lesson_materials']) !!}
+        </div>
+    </div>
+</section>
+
 {!! PageBuilder::section('footer') !!}

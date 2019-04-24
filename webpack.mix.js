@@ -11,5 +11,5 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.js('resources/assets/themes/marlwood/js/app.js', 'public/themes/marlwood/js')
+   .sass('resources/assets/themes/marlwood/sass/app.scss', 'public/themes/marlwood/css');

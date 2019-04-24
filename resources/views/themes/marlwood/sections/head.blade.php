@@ -9,10 +9,7 @@
 
   	<meta name="revisit-after" content="7 days">
 
-    <link href="{!! PageBuilder::css('bootstrap.min') !!}" rel="stylesheet">
-    <link href="{!! PageBuilder::css('style') !!}" rel="stylesheet">
-
-    <link href='http://fonts.googleapis.com/css?family=Prata|Raleway:400,500,600' rel='stylesheet' type='text/css'>
+    <link href="{!! PageBuilder::css('app') !!}" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -22,6 +19,7 @@
 
 </head>
 
-<body>
+<body class="full-height bg-dark">
+<div id="app" class="bg-light">
 
-{!! PageBuilder::menu('main_menu') !!}
+{!! PageBuilder::menu('main_menu', ['view' => 'navbar']) !!}

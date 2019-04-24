@@ -10,7 +10,7 @@ window._ = require('lodash');
 try {
     window.$ = window.jQuery = require('jquery');
 
-    require('bootstrap-sass');
+    require('bootstrap');
 } catch (e) {}
 
 /**
@@ -44,9 +44,9 @@ if (token) {
  */
 
 // import Echo from 'laravel-echo'
-
+//
 // window.Pusher = require('pusher-js');
-
+//
 // window.Echo = new Echo({
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'

@@ -1,0 +1,32 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url("https://use.typekit.net/dzg7mar.css");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+html,
+body,
+.full-height {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.img-fluid.img-header {
+    max-height: 30vh;
+    object-fit: cover;
+    width: 100%;
+}
+a.card {
+    color: $gray-900;
+    text-decoration: none;
+
+    &:hover {
+        border-color: $primary;
+    }
+}

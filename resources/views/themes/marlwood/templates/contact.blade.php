@@ -1,7 +1,10 @@
 {!! PageBuilder::section('head') !!}
 
 <section id="second">
-    <div class="container">
+    <div>
+        {!! PageBuilder::block('image', ['class' => 'img-fluid img-header']) !!}
+    </div>
+    <div class="container my-5">
         <div class="row">
             <div class="col-sm-12">
                 <h2>{!! PageBuilder::block('title') !!}</h2>
