@@ -16,6 +16,7 @@
     ],
     "require": {
         "php": ">=7.0",
+        "nesbot/carbon": "^1.36.0",
         "laravel/framework": "5.5.*",
         "web-feet/coasterframework": "5.5.*"
     },
@@ -51,6 +52,9 @@
         ]
     },
     "config": {
+        "platform": {
+            "php": "7.0.0"
+        },
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
